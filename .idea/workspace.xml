@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d88942a-ae85-4862-8531-2391919ce4d9" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5d88942a-ae85-4862-8531-2391919ce4d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/impl/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/impl/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/impl/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/impl/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/impl/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/impl/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/EvaluateReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/KthLargestElementInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/LongestValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/ReverseWordsInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/Sqrtx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/java/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/algo/.idea/algo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/algo/.idea/algo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/algo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/algo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/algo/impl/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/algo/impl/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/algo/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/algo/java/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/algo/leetcode/editor/cn/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/algo/leetcode/editor/cn/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/algo/leetcode/editor/cn/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/algo/leetcode/editor/cn/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/algo/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/algo/leetcode/editor/cn/all.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,50 +47,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VatVAxmhV6AUk8Fh2ypCQO427W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../share-hystrix" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MajorityElement">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="impl.Array" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.MajorityElement" />
+  <component name="RunManager" selected="Application.ReverseWordsInAString">
+    <configuration name="KthLargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.KthLargestElementInAnArray" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -70,14 +86,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="impl.sort.QuickSort" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="impl.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ThreeSum" />
+    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ReverseWordsInAString" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="impl.sort.SelectionSort" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="impl.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sqrtx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.Sqrtx" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +140,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ReverseWordsInAString" />
+        <item itemvalue="Application.Sqrtx" />
+        <item itemvalue="Application.KthLargestElementInAnArray" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -114,16 +176,113 @@
       <workItem from="1577602128056" duration="1967000" />
       <workItem from="1577688617481" duration="4399000" />
       <workItem from="1579354181885" duration="1258000" />
+      <workItem from="1580205307636" duration="13542000" />
+      <workItem from="1580287683540" duration="27209000" />
+      <workItem from="1580433818763" duration="831000" />
+      <workItem from="1580437193389" duration="13890000" />
+      <workItem from="1580487676967" duration="3600000" />
+      <workItem from="1580607225555" duration="591000" />
+      <workItem from="1580632008513" duration="1832000" />
+      <workItem from="1580709993533" duration="596000" />
+      <workItem from="1580789091963" duration="675000" />
+      <workItem from="1580866200950" duration="733000" />
+      <workItem from="1580893966083" duration="590000" />
+      <workItem from="1580905513185" duration="760000" />
+      <workItem from="1580953147483" duration="1569000" />
+      <workItem from="1581229097219" duration="12087000" />
+      <workItem from="1581300366656" duration="1207000" />
+      <workItem from="1581340416796" duration="628000" />
+      <workItem from="1581385040137" duration="958000" />
+      <workItem from="1581518956270" duration="2784000" />
+      <workItem from="1581558277661" duration="49000" />
+      <workItem from="1581558906731" duration="25000" />
+      <workItem from="1581600252631" duration="2067000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1577603073710">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="414" height="328" key="DebuggerActiveHint" timestamp="1580490015304">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="414" height="328" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1580490015304" />
+    <state width="421" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1580290256585" />
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1580209730324">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577603073710" />
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1580209730324" />
+    <state width="659" height="221" key="GridCell.Tab.0.bottom" timestamp="1580490210747">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580490210747" />
+    <state width="927" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580459409004" />
+    <state width="659" height="221" key="GridCell.Tab.0.center" timestamp="1580490210747">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580490210747" />
+    <state width="927" height="221" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580459409004" />
+    <state width="659" height="221" key="GridCell.Tab.0.left" timestamp="1580490210747">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580490210747" />
+    <state width="927" height="221" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580459409003" />
+    <state width="659" height="221" key="GridCell.Tab.0.right" timestamp="1580490210747">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580490210747" />
+    <state width="927" height="221" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580459409004" />
+    <state width="659" height="221" key="GridCell.Tab.1.bottom" timestamp="1580490210559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580490210559" />
+    <state width="927" height="221" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580459408724" />
+    <state width="659" height="221" key="GridCell.Tab.1.center" timestamp="1580490210559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1580490210559" />
+    <state width="927" height="221" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580459408724" />
+    <state width="659" height="221" key="GridCell.Tab.1.left" timestamp="1580490210559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1580490210559" />
+    <state width="927" height="221" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580459408724" />
+    <state width="659" height="221" key="GridCell.Tab.1.right" timestamp="1580490210559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="659" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580490210559" />
+    <state width="927" height="221" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580459408724" />
+    <state x="540" y="271" key="IDE.errors.dialog" timestamp="1580210377346">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="271" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580210377346" />
+    <state x="332" y="29" key="SettingsEditor" timestamp="1581600305905">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="332" y="29" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581600305905" />
+    <state x="467" y="206" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580437140911" />
+    <state x="690" y="285" key="extract.method.dialog" timestamp="1580445251950">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="285" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580445251950" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1581232346502">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1581232346502" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/leetcode/editor/cn/ValidParentheses.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
