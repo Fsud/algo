@@ -34,9 +34,21 @@
       }
       //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public void rotate(int[] nums, int k) {
-
-    }
+          public void rotate(int[] nums, int k) {
+              if(k==0){
+                  return;
+              }
+              int p = 0;
+              int q = k % 7;
+              int temp=nums[p];
+              for(int i=0;i<nums.length;i++){
+                  int a = nums[q];
+                  nums[q] = temp;
+                  temp = a;
+                  p=q;
+                  q=(p+k)% nums.length;
+              }
+          }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

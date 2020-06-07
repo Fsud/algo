@@ -22,15 +22,28 @@
 
   
   package leetcode.editor.cn;
+
+  import java.util.HashSet;
+  import java.util.Set;
+
   public class ContainsDuplicate{
       public static void main(String[] args) {
            Solution solution = new ContainsDuplicate().new Solution();
+           int[] a = {1,2,3,1};
+          System.out.println(solution.containsDuplicate(a));
       }
       //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public boolean containsDuplicate(int[] nums) {
-
-    }
+          public boolean containsDuplicate(int[] nums) {
+              Set<Integer> set = new HashSet<>(nums.length);
+              for (Integer integer : nums) {
+                  if(set.contains(integer)){
+                      return true;
+                  }
+                  set.add(integer);
+              }
+              return false;
+          }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 

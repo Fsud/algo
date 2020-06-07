@@ -1,4 +1,4 @@
-  //给定一个链表，判断链表中是否有环。 
+//给定一个链表，判断链表中是否有环。
 //
 // 为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。 
 //
@@ -38,29 +38,57 @@
 // 你能用 O(1)（即，常量）内存解决此问题吗？ 
 // Related Topics 链表 双指针
 
-  
-  package leetcode.editor.cn;
-  public class LinkedListCycle{
-      public static void main(String[] args) {
-           Solution solution = new LinkedListCycle().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-public class Solution {
-    public boolean hasCycle(ListNode head) {
-        
+
+package leetcode.editor.cn;
+
+public class LinkedListCycle {
+    public static void main(String[] args) {
+        Solution solution = new LinkedListCycle().new Solution();
     }
-}
+
+
+
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+    //leetcode submit region begin(Prohibit modification and deletion)
+
+    /**
+     * Definition for singly-linked list.
+     * class ListNode {
+     * int val;
+     * ListNode next;
+     * ListNode(int x) {
+     * val = x;
+     * next = null;
+     * }
+     * }
+     */
+
+
+    public class Solution {
+        public boolean hasCycle(ListNode head) {
+            ListNode slow = head;
+            ListNode fast = head;
+            while (fast != null && fast.next != null){
+                fast = fast.next.next;
+                slow = slow.next;
+                if(slow == fast){
+                    break;
+                }
+            }
+            if(fast == null || fast.next == null){
+                return false;
+            }
+            return true;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}

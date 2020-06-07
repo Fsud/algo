@@ -22,10 +22,24 @@ public class LongestIncreasingSubsequence{
     public static void main(String[] args) {
         Solution solution = new LongestIncreasingSubsequence().new Solution();
     }
-//leetcode submit region begin(Prohibit modification and deletion)
+
+    //状态：以n结尾的LIS的长度。这样形成一个数组，最终最大值就是结果。
+    //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLIS(int[] nums) {
-
+        int dp[] = new int[nums.length];
+        int resultMax = 1;
+        for (int i = 0; i < nums.length; i++) {
+            int maxval = 0;
+            for (int j=0;j<i;j++){
+                if (nums[j] > nums[i]){
+                    maxval = Math.max(maxval,dp[j]);
+                }
+            }
+            dp[i] = maxval +1;
+            resultMax = Math.max(resultMax,dp[i]);
+        }
+        return resultMax;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

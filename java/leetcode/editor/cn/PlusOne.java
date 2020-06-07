@@ -1,4 +1,4 @@
-  //给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。 
+//给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
 //
 // 最高位数字存放在数组的首位， 数组中每个元素只存储单个数字。 
 //
@@ -19,18 +19,41 @@
 // 
 // Related Topics 数组
 
-  
-  package leetcode.editor.cn;
-  public class PlusOne{
-      public static void main(String[] args) {
-           Solution solution = new PlusOne().new Solution();
-      }
-      //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] plusOne(int[] digits) {
 
+package leetcode.editor.cn;
+
+public class PlusOne {
+    public static void main(String[] args) {
+        Solution solution = new PlusOne().new Solution();
+        int[] a = {1,2,3};
+        solution.plusOne(a);
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[] plusOne(int[] digits) {
+            int index = digits.length-1;
+            boolean flag = false;
+            while (index>=0){
+                if(digits[index] == 9){
+                    digits[index] =0;
+                    flag = true;
+                }else{
+                    digits[index]+=1;
+                    flag = false;
+                    break;
+                }
+                index--;
+            }
+            if(flag){
+                int[] ints = new int[digits.length + 1];
+                ints[0] = 1;
+                return ints;
+            }else{
+                return digits;
+            }
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}

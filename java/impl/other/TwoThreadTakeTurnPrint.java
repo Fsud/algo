@@ -8,10 +8,10 @@ import java.util.concurrent.locks.ReentrantLock;
 public class TwoThreadTakeTurnPrint {
 
     public static void main(String[] args) {
-        HelloWorld0 helloWorld = new HelloWorld0();
+        HelloWorld2 helloWorld = new HelloWorld2();
 
-        Runnable r1 = () -> helloWorld.hello(10);
-        Runnable r2 = () -> helloWorld.world(10);
+        Runnable r1 = () -> helloWorld.hello(100);
+        Runnable r2 = () -> helloWorld.world(100);
         new Thread(r1).start();
         new Thread(r2).start();
 
@@ -20,13 +20,46 @@ public class TwoThreadTakeTurnPrint {
 
 }
 
+class HelloWorld2 {
+
+    private volatile static  int state = 0;
+
+    public void hello(int n) {
+        while (n>0){
+            if(state == 0){
+                System.out.print("hello");
+                state = 1;
+                n--;
+            }else {
+//                Thread.yield();
+            }
+
+        }
+
+    }
+
+    public void world(int n) {
+        while (n>0){
+            if(state == 1){
+                System.out.println("Word");
+                state = 0;
+                n--;
+            }else {
+//                Thread.yield();
+            }
+
+        }
+    }
+}
+
 class HelloWorld1 {
     SynchronousQueue q = new SynchronousQueue();
     int flag = 0;
+
     public void hello(int n) {
 
         while (n > 0) {
-            while (flag ==1){
+            while (flag == 1) {
 
             }
             System.out.print("hello");
@@ -43,7 +76,7 @@ class HelloWorld1 {
 
     public void world(int n) {
         while (n > 0) {
-            while (flag ==0){
+            while (flag == 0) {
 
             }
 
@@ -67,13 +100,12 @@ class HelloWorld0 {
 
     public void hello(int n) {
         while (n > 0) {
-
             try {
                 lock.lock();
-                while (flag == 1){
+                while (flag == 1) {
                     condition.await();
                 }
-                System.out.print("hello");
+                System.out.print(n + "hello");
                 flag = 1;
                 condition.signal();
             } catch (InterruptedException e) {
@@ -89,7 +121,7 @@ class HelloWorld0 {
         while (n > 0) {
             try {
                 lock.lock();
-                while (flag == 0){
+                while (flag == 0) {
                     condition.await();
                 }
                 System.out.println("world");
@@ -156,12 +188,19 @@ class HelloWorld {
                 e.printStackTrace();
             }
             System.out.println("world");
-            c2.countDown();
-            c1 = new CountDownLatch(1);
 
-            n--;
+
         }
 
-    }
 
+        class HelloWorldTMP {
+            public void hello(int n) {
+                System.out.print("hello");
+            }
+
+            public void world(int n) {
+                System.out.println("world");
+            }
+        }
+    }
 }

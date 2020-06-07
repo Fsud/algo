@@ -1,4 +1,4 @@
-package impl;
+package impl.other;
 
 
 public class DeadLock {

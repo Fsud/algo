@@ -39,18 +39,29 @@
 // 
 // Related Topics 贪心算法 数组
 
-  
+
   package leetcode.editor.cn;
-  public class BestTimeToBuyAndSellStockIi{
+
+  /**
+   * 贪心法，不纠结卖出点，因为卖出次数不限。只要后一天价格高了，就视为卖掉
+   */
+  public class BestTimeToBuyAndSellStockIi {
       public static void main(String[] args) {
-           Solution solution = new BestTimeToBuyAndSellStockIi().new Solution();
+          Solution solution = new BestTimeToBuyAndSellStockIi().new Solution();
       }
+
       //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int maxProfit(int[] prices) {
-        
-    }
-}
+      class Solution {
+          public int maxProfit(int[] prices) {
+              int r = 0;
+              for (int i = 1;i<prices.length;i++) {
+                  if(prices[i] > prices[i-1]){
+                      r += prices[i] - prices[i-1];
+                  }
+              }
+              return r;
+          }
+      }
 //leetcode submit region end(Prohibit modification and deletion)
 
   }

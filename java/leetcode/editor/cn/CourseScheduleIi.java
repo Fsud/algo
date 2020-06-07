@@ -40,13 +40,55 @@
 
   
 package leetcode.editor.cn;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class CourseScheduleIi{
     public static void main(String[] args) {
         Solution solution = new CourseScheduleIi().new Solution();
     }
+    //DAG图中的「拓扑排序」问题
+    //BFS解法是一种逆向思想。从入度值为0的开始记录，即得到最终结果。
+
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
+        //队列作为BFS的存储工具。只有入度为0的节点才会入队。
+        Queue<Integer> queue = new LinkedList();
+        //input数组记录每个节点的入度数。下标代表节点，value代表入度值
+        int[] input = new int[numCourses];
+        int[] res = new int[numCourses];
+
+        for (int[] prerequisite : prerequisites) {
+            input[prerequisite[0]]++;
+        }
+        //将入度为0的课程先入队，因为入度为0的课程相当于不依赖前置课程。从这些课程开始遍历
+        for (int i = 0; i < numCourses; i++) {
+            if(input[i] == 0){
+                queue.offer(i);
+            }
+        }
+        //循环将队列中的元素移出，将它指向的节点的入度减一。再判断节点入度是否已为0，为0将其入队。
+        int idx = 0;
+        while (!queue.isEmpty()){
+            int p = queue.poll();
+            res[idx++] = p;
+
+            for (int[] prerequisite : prerequisites) {
+                if(prerequisite[1] == p) {
+                    input[prerequisite[0]]--;
+                    if(input[prerequisite[0]]==0){
+                        queue.offer(prerequisite[0]);
+                    }
+                }
+            }
+        }
+
+        if(idx != numCourses){
+            return new int[]{};
+        }
+        return res;
 
     }
 }
